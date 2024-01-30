@@ -27,3 +27,27 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+
+/* Flex spacing  */
+
+img {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+/* Background for Group 3 */
+
+.coffee-images {
+  background-color: #785f48;
+}
